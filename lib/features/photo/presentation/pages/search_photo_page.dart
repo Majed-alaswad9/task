@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import '../bloc/get_posts/get_post_bloc.dart';
-import '../bloc/get_posts/get_post_event.dart';
+import '../bloc/get_photos/get_photo_bloc.dart';
+import '../bloc/get_photos/get_photo_event.dart';
 import 'package:task/injection_container.dart' as di;
 
 import '../widget/photo_page_widget.dart';

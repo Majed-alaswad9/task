@@ -7,10 +7,11 @@ import 'package:path_provider/path_provider.dart';
 import 'package:task/core/theme.dart';
 import 'package:task/core/util/snackbar_message.dart';
 import 'package:task/features/photo/data/model/photo_model.dart';
-import 'package:task/features/photo/presentation/bloc/get_posts/get_post_bloc.dart';
-import 'package:task/features/photo/presentation/bloc/get_posts/get_post_event.dart';
-import 'package:task/features/photo/presentation/bloc/get_posts/get_post_state.dart';
 import 'package:task/injection_container.dart' as di;
+
+import '../bloc/get_photos/get_photo_bloc.dart';
+import '../bloc/get_photos/get_photo_event.dart';
+import '../bloc/get_photos/get_photo_state.dart';
 
 class ViewImage extends StatelessWidget {
   final PhotoModel photoModel;

@@ -5,11 +5,11 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:task/core/util/snackbar_message.dart';
 import 'package:task/core/widget/loading_widget.dart';
 import 'package:task/features/photo/data/model/photo_model.dart';
-import 'package:task/features/photo/presentation/bloc/get_posts/get_post_bloc.dart';
-import 'package:task/features/photo/presentation/bloc/get_posts/get_post_event.dart';
 import 'package:task/features/photo/presentation/pages/view_image.dart';
 
-import '../bloc/get_posts/get_post_state.dart';
+import '../bloc/get_photos/get_photo_bloc.dart';
+import '../bloc/get_photos/get_photo_event.dart';
+import '../bloc/get_photos/get_photo_state.dart';
 
 // ignore: must_be_immutable
 class PhotoPageWidget extends StatefulWidget {

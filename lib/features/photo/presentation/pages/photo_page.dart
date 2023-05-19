@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:task/features/photo/presentation/bloc/get_posts/get_post_bloc.dart';
-import 'package:task/features/photo/presentation/bloc/get_posts/get_post_event.dart';
 import 'package:task/features/photo/presentation/widget/favourite_page_widget.dart';
 import 'package:task/features/photo/presentation/widget/photo_page_widget.dart';
 import 'package:task/injection_container.dart' as di;
 
 import '../../../../core/util/search_delegate.dart';
+import '../bloc/get_photos/get_photo_bloc.dart';
+import '../bloc/get_photos/get_photo_event.dart';
 
 class PhotoPage extends StatelessWidget {
   const PhotoPage({
